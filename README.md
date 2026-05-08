@@ -2,8 +2,12 @@
 
 A C++ program that utilizes Huffman Coding to encode/decode text. 
 
-The project is split into two parts: the encoder and the decoder. Each one takes an input file and encodes/decodes the content into an output file. Additionally, the program can print statistics for this process.
+### Description
 
-Build and run `encoder -h`/`decoder -h` for detials on usage and options.
+The application is split into two parts: the encoder and the decoder. Each one takes an input file and encodes or decodes the content into an output file by using Huffman Coding. Additionally, the application can print statistics regarding the encoding/decoding process (original vs compressed or compressed vs decompressed file sizes and % space saving)
 
-Written in C++14.
+Build and run the encoder/decoder with option `-h` for details on usage and options.
+
+### Tools
+
+C++14.
